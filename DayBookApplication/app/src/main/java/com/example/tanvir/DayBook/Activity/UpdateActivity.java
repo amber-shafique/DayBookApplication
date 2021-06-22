@@ -1,4 +1,4 @@
-package com.example.tanvir.diary.Activity;
+package com.example.tanvir.DayBook.Activity;
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
@@ -9,11 +9,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.tanvir.diary.Database.SqliteDatabase;
-import com.example.tanvir.diary.NeedyClass.Information;
+import com.example.tanvir.DayBook.Database.SqliteDatabase;
 import com.example.tanvir.diary.R;
 
-import java.util.ArrayList;
 import java.util.Date;
 
 public class UpdateActivity extends AppCompatActivity {

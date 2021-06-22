@@ -1,4 +1,4 @@
-package com.example.tanvir.diary.NeedyClass;
+package com.example.tanvir.DayBook.NeedyClass;
 
 public class Information {
     private String id;

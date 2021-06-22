@@ -2,11 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialogId"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#ffffff"
-    android:id="@+id/dialogId">
+    android:background="#ECE462"
+    android:orientation="vertical">
 
     <!-- This dialog activity for adding information -->
     <LinearLayout
@@ -42,51 +42,61 @@
             android:text="Save" />
     </LinearLayout>
 
-     <LinearLayout
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-         <EditText
-             android:id="@+id/subjectEditTextId"
-             android:layout_width="match_parent"
-             android:layout_height="70dp"
-             android:backgroundTint="#00ffffff"
-             android:ems="10"
-             android:hint="Title"
-             android:inputType="textPersonName"
-             android:maxLength="35"
-             android:textColorHint="#673AB7"
-             tools:ignore="MissingConstraints"
-             tools:layout_editor_absoluteX="0dp"
-             tools:layout_editor_absoluteY="2dp" />
+        <EditText
+            android:id="@+id/subjectEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#BF6C6666"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:fontFamily="@font/allerta"
+            android:foreground="@drawable/image9"
+            android:hint="Title"
+            android:inputType="textPersonName"
+            android:maxLength="35"
+            android:textAlignment="center"
+            android:textColor="#1C1C1C"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#673AB7"
+            android:textColorLink="#F44336"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="2dp" />
 
-     </LinearLayout>
+    </LinearLayout>
 
 
-      <LinearLayout
-          android:layout_width="match_parent"
-          android:layout_height="match_parent"
-          android:orientation="vertical"
-          tools:layout_editor_absoluteY="38dp"
-          tools:ignore="MissingConstraints">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="38dp">
 
-          <EditText
-              android:id="@+id/descriptionEditTextId"
-              android:layout_width="fill_parent"
-              android:layout_height="match_parent"
-              android:background="#FFFFFF"
-              android:backgroundTint="#00ffffff"
-              android:ems="10"
-              android:gravity="start"
-              android:hint="Add text here ..."
-              android:inputType="textMultiLine"
-              android:scrollbars="vertical"
-              android:textColorHint="#673AB7"
-              android:textSize="24sp"
-              tools:ignore="MissingConstraints"
-              tools:layout_editor_absoluteX="0dp"
-              tools:layout_editor_absoluteY="48dp" />
-      </LinearLayout>
+        <EditText
+            android:id="@+id/descriptionEditTextId"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="#F3040000"
+            android:backgroundTint="#FFFF99"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:gravity="start"
+            android:hint="Add text here ..."
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:textColorHint="#673AB7"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="48dp" />
+    </LinearLayout>
 
- </LinearLayout>
+</LinearLayout>

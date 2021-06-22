@@ -1,7 +1,5 @@
-package com.example.tanvir.diary.Activity;
+package com.example.tanvir.DayBook.Activity;
 
-import android.app.ActionBar;
-import android.app.Dialog;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -18,20 +16,16 @@ import android.view.MenuItem;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.tanvir.diary.Database.SqliteDatabase;
-import com.example.tanvir.diary.NeedyClass.Information;
-import com.example.tanvir.diary.NeedyClass.InformationAdapter;
+import com.example.tanvir.DayBook.Database.SqliteDatabase;
+import com.example.tanvir.DayBook.NeedyClass.Information;
+import com.example.tanvir.DayBook.NeedyClass.InformationAdapter;
 import com.example.tanvir.diary.R;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
     ListView listView;

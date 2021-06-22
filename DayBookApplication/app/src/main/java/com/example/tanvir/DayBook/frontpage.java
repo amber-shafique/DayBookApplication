@@ -1,11 +1,15 @@
-package com.example.tanvir.diary;
-
+package com.example.tanvir.DayBook;
+import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
+
+import com.example.tanvir.DayBook.Activity.MainActivity;
+import com.example.tanvir.diary.R;
 
 public class frontpage extends AppCompatActivity {
 
@@ -45,8 +49,6 @@ public class frontpage extends AppCompatActivity {
         a.findViewById(R.id.a);
         slogan.findViewById(R.id.tagline);
 
-
-
         //Setting Animations
         first.setAnimation(topAnimation);
         second.setAnimation(topAnimation);
@@ -58,7 +60,23 @@ public class frontpage extends AppCompatActivity {
         a.setAnimation(middleAnimation);
 
         slogan.setAnimation(bottomAnimation);
-
 */
+
+        NextActivity();
+    }
+
+    public void NextActivity()
+    {
+        new Handler().postDelayed(new Runnable(){
+            @Override
+            public void run() {
+
+                Intent mainIntent = new Intent(frontpage.this, MainActivity.class);
+                frontpage.this.startActivity(mainIntent);
+                frontpage.this.finish();
+            }
+        }, 3000);
+
+
     }
 }

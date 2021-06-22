@@ -1,4 +1,4 @@
-package com.example.tanvir.diary.Activity;
+package com.example.tanvir.DayBook.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
