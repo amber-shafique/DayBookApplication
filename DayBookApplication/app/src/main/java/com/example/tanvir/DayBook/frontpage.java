@@ -39,16 +39,6 @@ public class frontpage extends AppCompatActivity {
         fifth=findViewById(R.id.fifth_line);
         sixth=findViewById(R.id.sixth_line);
 
-        first.setAnimation(topAnimation);
-        second.setAnimation(topAnimation);
-        third.setAnimation(topAnimation);
-        forth.setAnimation(topAnimation);
-        fifth.setAnimation(topAnimation);
-        sixth.setAnimation(topAnimation);
-/*
-        a.findViewById(R.id.a);
-        slogan.findViewById(R.id.tagline);
-
         //Setting Animations
         first.setAnimation(topAnimation);
         second.setAnimation(topAnimation);
@@ -57,9 +47,16 @@ public class frontpage extends AppCompatActivity {
         fifth.setAnimation(topAnimation);
         sixth.setAnimation(topAnimation);
 
-        a.setAnimation(middleAnimation);
+     //   a.findViewById(R.id.a);
+   //     a.setAnimation();
 
+/*
+        slogan.findViewById(R.id.tagline);
         slogan.setAnimation(bottomAnimation);
+
+
+          a.findViewById(R.id.a);
+        a.setAnimation(middleAnimation);
 */
 
         NextActivity();
