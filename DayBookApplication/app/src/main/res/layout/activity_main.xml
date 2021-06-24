@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9C27B0"
+    android:background="#FFFFFF"
     android:orientation="vertical"
+    app:statusBarBackground="#673AB7"
     tools:context="com.example.tanvir.DayBook.Activity.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#3E0349"
+        android:background="#FFFFFF"
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.v7.widget.Toolbar
@@ -21,14 +22,14 @@
             android:background="#21F3F3"
             app:popupTheme="@style/AppTheme.PopupOverlay"
 
-            app:subtitleTextColor="#9C27B0"
-            app:titleTextColor="#FFFFFF" />
+            app:subtitleTextColor="#12514F55"
+            app:titleTextColor="#410B4A" />
 
     </android.support.design.widget.AppBarLayout>
 
     <include
         layout="@layout/content_main"
-        android:background="#21F3F3" />
+        android:background="#673AB7" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -36,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|right"
         android:layout_margin="@dimen/fab_margin"
-        app:backgroundTint="#21F3F3"
+        app:backgroundTint="#673AB7"
         app:layout_anchorGravity="bottom|right|end"
         app:srcCompat="@android:drawable/ic_input_add" />
 

@@ -16,14 +16,14 @@ import java.util.Date;
 
 public class UpdateActivity extends AppCompatActivity {
     EditText subjectEt,descriptionEt;
-    Button cancelBt,updateBt,shareBtOnUpdate;
+    Button cancelBt,updateBt,shareBtOnUpdate,deleteBt;
     SqliteDatabase dbUpdate;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.update_activity);
 
-        //passing Update Activity's context to database alass
+        //passing Update Activity's context to database
         dbUpdate = new SqliteDatabase(this);
         SQLiteDatabase sqliteDatabase = dbUpdate.getWritableDatabase();
 
@@ -33,6 +33,7 @@ public class UpdateActivity extends AppCompatActivity {
         cancelBt = findViewById(R.id.cacelButtonIdUpdate);
         updateBt = findViewById(R.id.saveButtonIdUpdate);
         shareBtOnUpdate = findViewById(R.id.shareButtonIdUpdate);
+
 
         Intent intent = getIntent();
         Bundle bundle = getIntent().getExtras();
@@ -55,6 +56,8 @@ public class UpdateActivity extends AppCompatActivity {
                 String des = descriptionEt.getText().toString();
                 shareIntent.putExtra(android.content.Intent.EXTRA_TEXT,des);
                 startActivity(Intent.createChooser(shareIntent, "Share via"));
+
+
             }
         });
 
