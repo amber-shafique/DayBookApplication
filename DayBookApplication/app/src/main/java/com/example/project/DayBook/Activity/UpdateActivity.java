@@ -1,4 +1,4 @@
-package com.example.tanvir.DayBook.Activity;
+package com.example.project.DayBook.Activity;
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
@@ -9,14 +9,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.tanvir.DayBook.Database.SqliteDatabase;
-import com.example.tanvir.diary.R;
+import com.example.project.DayBook.Database.SqliteDatabase;
+import com.example.project.diary.R;
 
 import java.util.Date;
 
 public class UpdateActivity extends AppCompatActivity {
     EditText subjectEt,descriptionEt;
-    Button cancelBt,updateBt,shareBtOnUpdate,deleteBt;
+    Button cancelBt,updateBt,shareBtOnUpdate;
     SqliteDatabase dbUpdate;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

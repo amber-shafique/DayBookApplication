@@ -1,4 +1,4 @@
-package com.example.tanvir.DayBook;
+package com.example.project.DayBook;
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -8,8 +8,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
-import com.example.tanvir.DayBook.Activity.MainActivity;
-import com.example.tanvir.diary.R;
+import com.example.project.DayBook.Activity.MainActivity;
+import com.example.project.diary.R;
 
 public class frontpage extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.tanvir.DayBook.NeedyClass;
+package com.example.project.DayBook.NeedyClass;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import com.example.tanvir.diary.R;
+import com.example.project.diary.R;
 
 import java.util.ArrayList;
 

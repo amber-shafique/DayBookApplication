@@ -1,4 +1,4 @@
-package com.example.tanvir.DayBook.Database;
+package com.example.project.DayBook.Database;
 
 import android.content.ContentValues;
 import android.content.Context;
