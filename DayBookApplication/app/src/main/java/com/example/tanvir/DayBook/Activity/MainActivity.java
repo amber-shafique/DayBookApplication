@@ -1,4 +1,4 @@
-package com.example.project.DayBook.Activity;
+package com.example.tanvir.DayBook.Activity;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -19,10 +19,10 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.project.DayBook.Database.SqliteDatabase;
-import com.example.project.DayBook.NeedyClass.Information;
-import com.example.project.DayBook.NeedyClass.InformationAdapter;
-import com.example.project.diary.R;
+import com.example.tanvir.DayBook.Database.SqliteDatabase;
+import com.example.tanvir.DayBook.NeedyClass.Information;
+import com.example.tanvir.DayBook.NeedyClass.InformationAdapter;
+import com.example.tanvir.diary.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

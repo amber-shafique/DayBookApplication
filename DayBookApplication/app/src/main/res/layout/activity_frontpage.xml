@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.project.DayBook.frontpage"
+    tools:context="com.example.tanvir.DayBook.frontpage"
 
     android:orientation="vertical"
     android:background="@drawable/image9">
-
+    <!-- android:background="#1f1f1d" -->
 
 
     <RelativeLayout

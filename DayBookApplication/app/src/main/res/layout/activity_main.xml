@@ -7,7 +7,7 @@
     android:background="#FFFFFF"
     android:orientation="vertical"
     app:statusBarBackground="#673AB7"
-    tools:context="com.example.project.DayBook.Activity.MainActivity">
+    tools:context="com.example.tanvir.DayBook.Activity.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"

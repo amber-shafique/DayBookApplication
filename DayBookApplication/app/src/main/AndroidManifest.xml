@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.project.diary" >
+    package="com.example.tanvir.diary" >
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/dairy"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar" >
-        <activity android:name="com.example.project.DayBook.frontpage" >
+        <activity android:name="com.example.tanvir.DayBook.frontpage" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.project.DayBook.Activity.MainActivity"
+            android:name="com.example.tanvir.DayBook.Activity.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
@@ -27,11 +27,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.project.DayBook.Activity.AddDataActivity"
+            android:name="com.example.tanvir.DayBook.Activity.AddDataActivity"
             android:label="@string/title_activity_add_data"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.project.DayBook.Activity.UpdateActivity" />
-        <activity android:name="com.example.project.DayBook.Activity.InstructionActivity" />
+        <activity android:name="com.example.tanvir.DayBook.Activity.UpdateActivity" />
+        <activity android:name="com.example.tanvir.DayBook.Activity.InstructionActivity" />
 
         <meta-data
             android:name="preloaded_fonts"
