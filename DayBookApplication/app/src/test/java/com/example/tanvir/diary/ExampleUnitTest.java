@@ -1,4 +1,4 @@
-package com.example.daybookapplication;
+package com.example.tanvir.diary;
 
 import org.junit.Test;
 
