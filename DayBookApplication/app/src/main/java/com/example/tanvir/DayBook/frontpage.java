@@ -47,22 +47,19 @@ public class frontpage extends AppCompatActivity {
         fifth.setAnimation(topAnimation);
         sixth.setAnimation(topAnimation);
 
-     //   a.findViewById(R.id.a);
-   //     a.setAnimation();
-
 /*
         slogan.findViewById(R.id.tagline);
         slogan.setAnimation(bottomAnimation);
 
 
-          a.findViewById(R.id.a);
-        a.setAnimation(middleAnimation);
-*/
+   /*       a.findViewById(R.id.a);
+          a.setAnimation(middleAnimation);*/
 
-        NextActivity();
+
+       NextActivity();
     }
 
-    public void NextActivity()
+ public void NextActivity()
     {
         new Handler().postDelayed(new Runnable(){
             @Override
@@ -73,6 +70,9 @@ public class frontpage extends AppCompatActivity {
                 frontpage.this.finish();
             }
         }, 3000);
+
+
+
 
 
     }
